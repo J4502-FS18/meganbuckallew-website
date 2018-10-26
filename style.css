@@ -4,11 +4,20 @@ html {
 
 p {
   font-family: "Merriweather", Georgia, "Times New Roman", serif;
-	font-size: 15px;
-	line-height: 1rem;
+	font-size: 14px;
+	line-height: 1.7rem;
 	color: #707F8C;
+	justify-content: center;
 }
 
+.main {
+	font-family: "Merriweather", Georgia, "Times New Roman", serif;
+	font-size: 15px;
+	line-height: 2rem;
+	color: #707F8C;
+	font-weight: bold;
+	justify-content: center;
+}
 
 .container {
 	display: flex;
@@ -32,7 +41,7 @@ p {
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 2.7rem;
 	color: #324359;
 	font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
 }
@@ -104,12 +113,40 @@ body{
     font-size: 0.7em;
     border-top: 1px solid #162238;
 		border-width: 95%;
+		padding-top: 7px;
 }
 
 img {
 	border: none;
-  margin-top: 4px;
-	padding-top: 15px;
-	padding-bottom: 25px;
+  margin-top: 3px;
+	padding-top: 3px;
+	padding-bottom: 20px;
 	width: 100%;
+}
+
+.subtitle {
+	font-size: 1rem;
+	color: #162238;
+	font-family: "Merriweather", Georgia, "Times New Roman", serif;
+}
+
+.caption {
+	font-size: .9rem;
+	color: #162238;
+}
+
+.byline {
+    font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
+    font-size: 0.8em;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    line-height: normal;
+}
+
+.pullquote {
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-size: 1.6em;
+  font-style: italic;
+  line-height: 1.5;
+	color: #324359;
 }
