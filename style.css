@@ -119,7 +119,7 @@ body{
 img {
 	border: none;
   margin-top: 3px;
-	padding-top: 3px;
+	padding-top: 10px;
 	padding-bottom: 20px;
 	width: 100%;
 }
@@ -149,4 +149,47 @@ img {
   font-style: italic;
   line-height: 1.5;
 	color: #324359;
+}
+
+.menu-trigger {
+  order: 1;
+  font-size: 1.5em;
+  width: 2em;
+}
+
+header h2 {
+  order: 2;
+  font-size: 1.75em;
+}
+
+.container {
+  display: none;
+}
+
+@media screen and (min-width: 700px){
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        border-top: none;
+    }
+
+    .menu-trigger {
+        display: none;
+    }
+
+    header h1 {
+        order: 1;
+    }
+
+    nav {
+        order: 2;
+    }
+
+		.container {
+			display: flex;
+		}
+
 }
